@@ -1,9 +1,7 @@
 import { useState, useCallback, useMemo, useEffect } from "react";
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-// Set VITE_APPS_SCRIPT_URL in your Vercel environment variables.
-// Locally: create a .env file with VITE_APPS_SCRIPT_URL=https://script.google.com/...
-const APPS_SCRIPT_URL = import.meta.env.VITE_APPS_SCRIPT_URL || "";
+const APPS_SCRIPT_URL = "https://script.google.com/a/macros/jumia.com/s/AKfycbyT-1IR5BHuIjOMnJJUDws23l3-8YRdDcyfPpErq7a3TYc2I8yb0-F59tQcp2nrpg43/exec";
 
 const ORANGE = "#F68B1E";
 
